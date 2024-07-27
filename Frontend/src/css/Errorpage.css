@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Fira+Mono:wght@500&display=swap');
+
+.maindiv{
+    height: 100vh;
+    background:  #3932bb;
+    text-align: center;
+    color: #E0E0E0;
+    font-family: 'Fira Mono', monospace;
+    margin: 0;
+    overflow: hidden; /* Prevent scrolling or overflow */
+}
+
+.maindiv h1 {
+    font-size: 2.5rem;
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+
+.text {
+    margin-top: 100px;
+    opacity: 0;
+    animation: appear 1s ease-in forwards;
+    animation-delay: 1.8s;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

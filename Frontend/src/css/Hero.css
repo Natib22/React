@@ -1,0 +1,15 @@
+.Hero {
+    margin-top: 0.5px;
+    height: 25vh;
+    background-color:  #3932bb;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
