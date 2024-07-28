@@ -11,8 +11,11 @@ app.use(express.json());
 app.get("/", (req, res) => {
   res.json({ ...jobs, message: "hello world" });
 });
-app.get("/test", (req, res) => {
-  res.json(jobs);
+
+app.get("/jobs/:id", (req, res) => {
+  const { id } = req.params;
+  const job = jobs.jobs[id - 1];
+  res.send(job);
 });
 
 let port = 3001;

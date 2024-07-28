@@ -1,5 +1,7 @@
-import {useState }from 'react'
+import {useState }from 'react';
+import { Link } from 'react-router-dom';
 import '../css/Jobcard.css';
+
 const Jobcard = ({ job }) => {
 
 
@@ -23,7 +25,7 @@ const Jobcard = ({ job }) => {
 
       <div className='Joblocation'> 
        <p> {job.location} </p>
-        <a>Read more</a>
+        <Link to = {`/Jobs/${job.id}`}>Read more</Link>
 
       </div>
 

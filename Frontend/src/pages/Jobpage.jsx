@@ -10,12 +10,11 @@ const Jobpage = () => {
    useEffect(() => {
     const fetchJobs = async () => {
       try {
-        const response = await fetch('http://localhost:3001')
+        const response = await fetch('http://localhost:3001/')
         console.log(response)
        
         const data = await response.json()
-        console.log("hereeee" , data)
-        console.log("hiii")
+    
         setData(data)
         setloading(false)
       } catch (error) {

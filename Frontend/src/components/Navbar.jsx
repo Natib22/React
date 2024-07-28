@@ -44,7 +44,7 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li className='hideonmobile'>
-          <NavLink to="/addjobs" style={getNavLinkStyles}>
+          <NavLink to="/addjob" style={getNavLinkStyles}>
             Add Jobs
           </NavLink>
         </li>
