@@ -77,7 +77,7 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/addjobs" style={getNavLinkStyles}>
+          <NavLink to="/addjob" style={getNavLinkStyles}>
             Add Jobs
           </NavLink>
         </li>
