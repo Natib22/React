@@ -75,7 +75,7 @@ const Singlejobpage = () => {
                     </div>
 
                     <div className="SingleJobcontainerrightbottom">
-                        <h2>Manage Job</h2>
+                        <h3>Manage Job</h3>
                         <button>Edit</button>
                         <button>Delete</button>
                     </div>
